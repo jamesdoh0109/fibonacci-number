@@ -22,7 +22,7 @@ function fibonacci(num) {
 
 var submit = document.getElementById("button");
 submit.addEventListener("click", function() {
-    var number = document.getElementById("number").value;
+    let number = document.getElementById("number").value;
     document.getElementById("fibscreen").innerHTML = fibonacci(number);
 });
 
